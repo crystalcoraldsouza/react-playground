@@ -1,0 +1,21 @@
+{
+  "name": "01-app-setup",
+  "version": "1.0.0",
+  "description": "This is new app setup by Crystal Dsouza inspired by Akshay Saini.",
+  "keywords": [],
+  "license": "ISC",
+  "author": "Crystal Dsouza",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}

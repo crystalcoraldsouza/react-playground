@@ -432,3 +432,36 @@ Frameworks and libraries are code written by third parties to solve regular/comm
 ## Difference between Library and Framework
 
 A key difference between the two is Inversion of control. When using a library, the control remains with the developer who tells the application when to call library functions. When using a framework, the control is reversed, which means that the framework tells the developer where code needs to be provided and calls it as it requires.
+
+## What is difference between react.development.js and react.production.min.js files via CDN?
+
+`react.development.js` includes debugging warnings and detailed error messages for development, while `react.production.min.js` is optimized and minified for better performance in production.
+
+### react.development.js
+
+Characteristics
+
+- Includes extra warnings
+- Includes detailed error messages
+- Includes development checks
+- Larger file size
+- Slower performance
+
+Example warnings you may see:
+
+- Missing key in lists
+- Invalid hook usage
+- Deprecated APIs
+
+### react.production.min.js
+
+Characteristics
+
+- Minified code
+- No warnings
+- Smaller bundle size
+- Better performance
+
+## What is async and defer?
+
+async and defer allow scripts to load without blocking HTML parsing. async executes the script as soon as it downloads and does not guarantee order, while defer waits until HTML parsing finishes and preserves execution order.
