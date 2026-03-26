@@ -1,0 +1,160 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.app {
+    min-height: 100vh;
+    /* full screen height */
+    display: flex;
+    flex-direction: column;
+}
+
+.root {
+    min-height: 100vh;
+    /* full screen height */
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(188, 188, 188);
+}
+
+.logo-container {
+    max-width: 100px;
+}
+
+.logo-container img {
+    width: 100%;
+}
+
+.nav-items {
+    margin: auto 0px;
+    color: #2c6b64
+        /* color: #44ab96; */
+}
+
+.nav-items ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
+
+}
+
+.nav-items ul li {
+    padding: 10px 20px;
+}
+
+.restaurant-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.body-component {
+
+    margin: 0px 40px;
+    flex: 1;
+}
+
+.search input {
+    padding: 10px;
+    width: 300px;
+}
+
+.search {
+    margin: 20px 0px;
+}
+
+.filter {
+    margin: 20px 0px;
+
+}
+
+.filter-btn {
+    padding: 10px 20px;
+    background-color: #2c6b64;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filter-btn:hover {
+    background-color: #44ab96;
+}
+
+
+
+.shimmer-ui {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.shimmer-card {
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.login-btn {
+    padding: 10px 10px;
+    background-color: #2c6b64;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.login-btn:hover {
+    background-color: #44ab96;
+}
+
+.search-btn {
+    padding: 10px 10px;
+    background-color: #2c6b64;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.search-btn:hover {
+    background-color: #44ab96;
+}
+
+.filter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
