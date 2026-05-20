@@ -1,0 +1,37 @@
+{
+  "name": "01-app-setup",
+  "version": "1.0.0",
+  "description": "This is new app setup by Crystal Dsouza inspired by Akshay Saini.",
+  "keywords": [],
+  "license": "ISC",
+  "author": "Crystal Dsouza",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest",
+    "watch-test": "jest --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.5",
+    "@babel/preset-react": "^7.28.5",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "babel-jest": "^30.4.1",
+    "jest": "^30.4.2",
+    "jest-environment-jsdom": "^30.4.1",
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.11.2",
+    "@tailwindcss/postcss": "^4.2.4",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.30.3",
+    "tailwindcss": "^4.2.4"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
